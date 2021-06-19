@@ -1,0 +1,82 @@
+.red, .calculos__texto::after {
+  background-color: red;
+  font-size: 8px;
+  padding: 4px;
+  color: yellow;
+}
+
+.blue, .calculos__texto--adicional {
+  background-color: blue;
+  color: white;
+}
+
+.neither {
+  background-color: white;
+  color: rgba(0, 128, 0, 0.25);
+}
+
+.calculos__texto::after {
+  content: "soy rojo";
+}
+
+.calculos__texto--adicional {
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: pink;
+}
+
+.titulo {
+  font-size: 32px;
+  color: #fd0000;
+}
+
+.subtitulo {
+  font-size: 28px;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.container .titulo {
+  color: #fd0000;
+}
+
+.container .subtitulo {
+  font-size: 24px;
+}
+
+.container .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .texto {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .texto__contenido {
+  border: 1px solid #00aa00;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.container .texto__contenido .texto__contenido--rojo {
+  color: #fd0000;
+}
+/*# sourceMappingURL=main.css.map */
